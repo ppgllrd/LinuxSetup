@@ -46,13 +46,14 @@ Contents of `/etc/sudoers.d/openfortigui` should be as follows:
 
 
 
-pepeg must be in sudo group:
+`pepeg` must be in `sudo` group:
 
     sudo usermod -aG sudo pepeg
 
 
 
 Output of  `sudo -l` shoul be as follows:
+
     Matching Defaults entries for pepeg on dellXPS:
         env_reset, mail_badpass,
         secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin
