@@ -1,0 +1,110 @@
+<!--
+
+
+ Copyright (C) 2006-2007 GtkSourceView team
+ Author: Luigi Maselli <luigix_@t_gmail_com>
+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+
+ You should have received a copy of the GNU Library General Public
+ License along with this library; if not, write to the
+ Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+ Boston, MA 02111-1307, USA.
+
+-->
+<style-scheme id="Flat-Remix-Darker" _name="Flat-Remix-Darker" version="1.0">
+<author>Me</author>
+<_description>Color scheme FlatRemix</_description>
+<!--
+
+        Colors from the FlatRemix palette. 
+-->
+
+<color name="black" value="#000000"/>
+<color name="veryverydark" value="#1A1C23"/>
+<color name="verydark" value="#1E2128"/>
+<color name="dark" value="#1F2229"/>
+<color name="lessdark" value="#272A34"/>
+<color name="lesslessdark" value="#434446"/>
+
+<color name="darkgray" value="#A6A6A6"/>
+
+<color name="gray" value="#E6E6E6"/>
+<color name="white" value="#FFFFFF"/>
+
+<color name="purple" value="#8C42AB"/>
+<color name="magenta" value="#D41919"/>
+<color name="red" value="#EC0101"/>
+
+<color name="yellow" value="#FEA44C"/>
+<color name="orange" value="#FF8A18"/>
+
+<color name="darkgreen" value="#5EBDAB"/>
+<color name="lightgreen" value="#47D4B9"/>
+
+
+<color name="lime" value="#33DA7A"/>
+<color name="green" value="#26A269"/>
+<color name="alga" value="#33C7DE"/>
+
+<color name="darkaqua" value="#367bf0"/>
+<color name="aqua" value="#277FFF"/>
+
+<color name="lightcyan" value="#49AEE6"/>
+<color name="cyan" value="#05A1F7"/>
+
+<color name="carbon" value="#232323"/>
+
+<!--
+        GUI styles 
+-->
+<style name="text" foreground="white" background="verydark"/>
+<style name="current-line" background="#veryverydark"/>
+<style name="selection" foreground="dark" background="gray"/>
+<style name="selection-unfocused" foreground="black" background="white"/>
+<style name="cursor" foreground="yellow"/>
+<style name="secondary-cursor" foreground="black" background="white"/>
+<style name="line-numbers" foreground="white" background="black"/>
+<style name="bracket-match" foreground="magenta" bold="true"/>
+<style name="bracket-mismatch" foreground="red" bold="true"/>
+<style name="search-match" foreground="gray" background="lesslessdark"/>
+<!--
+        Default styles 
+-->
+<style name="def:keyword" foreground="cyan" bold="true"/>
+<style name="def:statement" foreground="cyan"/>
+<style name="def:function" foreground="purple"/>
+<style name="def:preprocessor" foreground="white" bold="true"/>
+<style name="def:type" foreground="green"/>
+<style name="def:character" foreground="yellow"/>
+<style name="def:comment" foreground="darkgray"/>
+<style name="def:number" foreground="yellow"/>
+<style name="def:string" foreground="yellow"/>
+<style name="def:net-address-in-comment" foreground="purple" italic="true" underline="true"/>
+<style name="def:underlined" underline="true"/>
+<style name="def:note" foreground="white" background="fuchsia" bold="true"/>
+<style name="def:error" background="red" bold="true"/>
+<style name="def:escape" foreground="purple"/>
+<style name="def:shebang" foreground="darkgreen" bold="true"/>
+<style name="def:doc-comment-element" italic="true"/>
+<style name="def:identifier" foreground="aqua" bold="true"/>
+<style name="def:specials" foreground="white" background="magenta"/>
+<style name="def:variable" foreground="aqua"/>
+<style name="def:boolean" foreground="yellow"/>
+<style name="def:constant" foreground="yellow"/>
+<style name="def:special-constant" foreground="yellow"/>
+
+
+<!-- XML Styles -->
+<style name="xml:attribute-name" foreground="green"/>
+<style name="xml:element-name" foreground="aqua"/>
+
+</style-scheme>

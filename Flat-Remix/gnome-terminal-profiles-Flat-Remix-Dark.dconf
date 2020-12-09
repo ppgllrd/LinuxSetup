@@ -1,0 +1,37 @@
+[/]
+default='02bc1c4f-e444-4516-934e-69e2232de265'
+list=['b1dcc9dd-5262-4d8d-a863-c897e6d979b9', '4e2730fa-1918-4aa1-84c2-eaa9446f47ef', '02bc1c4f-e444-4516-934e-69e2232de265']
+
+[:02bc1c4f-e444-4516-934e-69e2232de265]
+allow-bold=true
+background-color='#27272a2a3434'
+bold-color='#FFFFFFFFFFFF'
+bold-color-same-as-fg=true
+bold-is-bright=true
+cursor-colors-set=false
+font='JetBrains Mono Medium 11'
+foreground-color='#FFFFFFFFFFFF'
+highlight-background-color='rgb(17,17,17)'
+highlight-colors-set=true
+highlight-foreground-color='rgb(54,123,240)'
+palette=['#1F1F22222929', '#D4D419191919', '#5E5EBDBDABAB', '#FEFEA4A44C4C', '#36367b7bf0f0', '#BFBF2E2E5D5D', '#4949AEAEE6E6', '#E6E6E6E6E6E6', '#8C8C4242ABAB', '#ECEC01010101', '#4747D4D4B9B9', '#FFFF8A8A1818', '#27277F7FFFFF', '#D7D716165555', '#0505A1A1F7F7', '#FFFFFFFFFFFF']
+use-system-font=true
+use-theme-background=false
+use-theme-colors=false
+use-theme-transparency=false
+visible-name='Flat-Remix-Dark'
+
+[:4e2730fa-1918-4aa1-84c2-eaa9446f47ef]
+background-color='rgb(30,33,40)'
+bold-color-same-as-fg=true
+bold-is-bright=true
+cursor-colors-set=false
+font='JetBrains Mono Medium 11'
+foreground-color='rgb(255,255,255)'
+highlight-background-color='rgb(230,230,230)'
+highlight-colors-set=true
+highlight-foreground-color='rgb(31,34,41)'
+palette=['rgb(31,34,41)', 'rgb(212,25,25)', 'rgb(38,162,105)', 'rgb(254,164,76)', 'rgb(54,123,240)', 'rgb(191,46,93)', 'rgb(73,174,230)', 'rgb(230,230,230)', 'rgb(140,66,171)', 'rgb(236,1,1)', 'rgb(51,218,122)', 'rgb(255,138,24)', 'rgb(39,127,255)', 'rgb(215,22,85)', 'rgb(5,161,247)', 'rgb(255,255,255)']
+use-system-font=true
+use-theme-colors=false
+visible-name='Flat-Remix-Darker'
