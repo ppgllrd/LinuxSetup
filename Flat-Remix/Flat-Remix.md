@@ -38,7 +38,7 @@ Download Flat-Remix-Blue-Dark-fullpanel theme from [drasite.com](https://drasite
 
 Extensions -> Enable "User themes"
 
-Apparience:
+Appearance:
 
 Applications: Flat-Remix-GTK-Blue-Dark-Solid
 Icons: Flat-Remix-Blue-Dark
@@ -91,11 +91,11 @@ New gnome-terminal-profiles.dconf file with following contents:
     visible-name='Flat-Remix-Darker'
 
 
-#Import terminal theme
+# Import terminal theme
 
     dconf load /org/gnome/terminal/legacy/profiles:/ < gnome-terminal-profiles-Flat-Remix-Dark.dconf
 
-#Export terminal theme
+# Export terminal theme
 
     dconf dump /org/gnome/terminal/legacy/profiles:/ > gnome-terminal-profiles-Flat-Remix-Dark.dconf
 
