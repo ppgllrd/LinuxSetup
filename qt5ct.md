@@ -3,7 +3,7 @@
     sudo apt install qt5ct
     sudo apt install qt5-style-plugins
     
-    echo "export QT_QPA_PLATFORMTHEME=qt5ct" >> ~/.profile
+    echo -e '\nexport QT_QPA_PLATFORMTHEME=qt5ct' >> ~/.profile
 
     qt5ct &
 
