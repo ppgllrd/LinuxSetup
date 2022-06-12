@@ -61,6 +61,9 @@ Factor escalado: 1,25
     sudo dpkg -i ./fontconfig-config_2.11.94-0ubuntu1.1_all.deb 
 
 
+# .profile
 
+# 35=old freetype, which makes fonts fatter
+export FREETYPE_PROPERTIES="truetype:interpreter-version=35 autofitter:no-stem-darkening=0"
 
 
